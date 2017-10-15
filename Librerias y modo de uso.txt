@@ -1,0 +1,18 @@
+Detecta el rostro y los ojos mediante el uso de la camara web
+
+Para ejecutarlo, tendran que abrir el CMD en la ruta donde hayan dejado la carpeta y escribir la siguiente linea:
+
+
+python eyetracking.py -f haarcascade_frontalface_default.xml -e haarcascade_eye.xml
+
+* los haarcascade deben encontrarse en la misma carpeta, de no ser asi, deben asignar la ruta donde se encuentren.
+
+Posiblemente requieran instalar algunas librerias...
+
+-CV2 (lo pueden encontrar tambien como OpenCV)
+-imutils
+-argparse
+
+-numpy (requerido para CV2)
+
+Por el momento no recuerdo que otras librerias son necesarias, pero al momento de ejecutar el archivo, posiblemente les arroje que librerias necesiten instalar.
